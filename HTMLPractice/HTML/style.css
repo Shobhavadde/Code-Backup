@@ -1,0 +1,227 @@
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-left: 60px;
+}
+ /*.header .logo img {
+    max-height: 40px;
+    margin-right: 6px;
+
+} */
+h1 {
+    margin-left: 50px;
+}
+h3 {
+    margin-left: 50px;
+}
+   
+img {
+    padding-right: 30px;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    float: right;
+    margin: 0px 0px 15px 20px;
+    margin-right: 20px;
+}
+div.a {
+    
+    padding: 40px;
+    padding-left: 50px;
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 20px;
+}
+.body {
+    background-image: url('backround.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    transition-property: width,height;
+    transition-duration: 2s;
+}
+#mySidenav a {
+    position: absolute;
+    right: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 120px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  #mySidenav a:hover {
+    right: 0;
+  }
+  #call {
+    top: 20px;
+    background-color: #04AA6D;
+  } 
+  #mail {
+    top: 20px;
+    background-color: blueviolet;
+  } 
+.body :hover {
+    width: 200px;
+    height: 250px;
+}
+.navbar a {
+    top: 0px;
+    bottom: 0px;
+float: right;
+display: block;
+color:white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+
+}
+.topnav-right {
+    float: right;
+    }
+
+.navbar a:hover {
+background: #ddd;
+color: black;
+}
+body{
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+ .column {
+float: left;
+width: 30%;
+padding: 0 20px;
+} 
+
+
+
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+.column {
+width: 100%;
+display: block;
+margin-bottom: 20px;
+}
+}
+
+/* Style the counter cards */
+.card {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+padding: 35px;
+text-align: center;
+background-color: #f1f1f1;
+margin-bottom: 100px;
+transition: all 2s;
+} 
+.card:hover {
+    padding: auto;
+}
+
+.p{
+column-count: auto;
+}
+
+
+.footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to right),#00093c,#2d0b00;
+    color: bisque;
+    padding: 100px 0 30px;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+    
+}
+.row {
+    width: 85%;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col {
+    flex-basis: 25%;
+    padding: 10px;
+}
+.logo {
+    width: 80px;
+    margin-bottom: 30px;
+}
+.col h3 {
+    width: fit-content;
+    margin-bottom: 20px;
+    position: relative;
+}
+ui li {
+    list-style: none;
+    margin-bottom: 120px;
+}
+ui li {
+    text-decoration: none;
+    color: white;
+}
+/*form {
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+} */
+#ulist li {
+    padding :10px;
+}
+#ulist {
+    list-style-type: none;
+}
+#bottom {
+text-align: center;
+padding: 3px;
+background-color: #f1f1f1;
+color: black;
+
+}
+.social-icons .fa {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: aliceblue;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+ .back {
+    background-image:  
+    url("world1.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+
+
+ 
